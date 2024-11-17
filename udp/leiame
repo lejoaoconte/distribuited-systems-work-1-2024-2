@@ -1,0 +1,9 @@
+Para compilar os arquivos na linha de comando basta executar:
+
+javac UDPServer.java
+javac UDPClient.java
+
+Para executar o servidor ou cliente na linha de comando execute (em terminais separados):
+java -cp . UDPServer
+java -cp . UDPClient
+

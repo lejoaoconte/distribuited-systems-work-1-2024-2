@@ -1,0 +1,24 @@
+Atividade de Sistemas Distribuídos:
+
+1 - Adaptar o servidor e cliente TCP para que desempenhem as seguintes funções:
+	Servidor:
+		- Implemente 4 tipos de serviço de aritimética básica (adição, subtração, divisão e multiplicação).
+		- Receba uma mensagem do no formato [op,arg1,arg2,arg3,...,argN], onde op é um símbolo de +, -, / ou *, e arg são números reais
+		- Aplique a operação correspondente na lista de elementos e retorne o resultado ou uma mensagem caso a operação não seja possível.
+		Exemplos:
+			[+,1,2,3] => [6]
+			[/,16,4,2] => [2]
+			[*,-1,5,5] => [-25]
+			[+,10] => [10]
+			[-,5] => [-5]
+			[/,5] => [erro: argumentos insuficientes]
+	Cliente:
+		- Faça um laço de repetição em que:
+			- Apresenta um menu de operações
+			- Lê a operação e os argumentos de uma única linha (ex: + 5 10 9 4)
+			- Invoca o servidor e apresenta os resultados
+			- Sai do laço caso o usuário digite "exit"
+
+2 - Implemente a mesma funcionalidade que o exercício anterior, porém usando o servidor e o cliente UDP.
+
+Faça o upload das classes Java através do SIGAA. Faça o upload apenas dos arquivos .java, os arquivos .class não são necessários. Se você utilizar algum IDE, modifique o código para que ele não possua nenhuma definição de package ou outros detalhes específicos do projeto criado, permitindo a fácil compilação e execução do mesmo via linha de comando.
